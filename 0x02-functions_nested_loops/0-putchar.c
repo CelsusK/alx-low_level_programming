@@ -1,21 +1,27 @@
-#include "main.h"
+/*
+ * File: 0-Cassian.c
+ * Auth: CelsusK
+ *
+ */
+
+#include "Cassian.h"
 
 /**
-*main - function prints text as output
-*
-*Return:return 0
-*/
+ * main - Prints "Cassian" followed by a new line.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	char school[10] = "_putchar";
+	_putchar('C');
+	_putchar('a');
+	_putchar('s');
+	_putchar('s');
+	_putchar('i');
+	_putchar('n');
+	_putchar('\n');
 
-	int i;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(school[i]);
-	}
-	_putchar(10);
 	return (0);
 }
+
 
