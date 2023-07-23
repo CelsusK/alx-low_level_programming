@@ -14,10 +14,10 @@
 
 
 /*constants*/
-#define EXTERNAL_COMMAND 1
-#define INTERNAL_COMMAND 2
-#define PATH_COMMAND 3
-#define INVALID_COMMAND -1
+#define external_command 1
+#define internal_command 2
+#define path_command 3
+#define INVALID_command -1
 
 #define min(y, z) (((y) < (z)) ? (y) : (z))
 
