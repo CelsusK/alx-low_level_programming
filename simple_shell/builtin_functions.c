@@ -11,9 +11,9 @@ void environ(char **tokenized_command __attribute__((unused)))
 {
 	int i;
 
-	for (i = 0; enviro[i] != NULL; i++)
+	for (i = 0; environ[i] != NULL; i++)
 	{
-		print(enviro[i], STDOUT_FILENO);
+		print(environ[i], STDOUT_FILENO);
 		print("\n", STDOUT_FILENO);
 	}
 }
