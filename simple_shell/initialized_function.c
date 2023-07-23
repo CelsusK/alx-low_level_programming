@@ -12,7 +12,7 @@ void initializer(char **current_command, int type_command)
 {
 	PID_t pid;
 
-	if (type_command == external_command || type_command == path_command)
+	if (type_command == external_command || type_command == PATH_COMMAND)
 	{
 		PID = fork();
 		if (pid == 0)
