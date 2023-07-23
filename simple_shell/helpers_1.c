@@ -87,18 +87,6 @@ int _strcspn(char *str1, char *str2)
 	return (len);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  *_strchr - It locates a char in a string
  *@s: The string to be searched
