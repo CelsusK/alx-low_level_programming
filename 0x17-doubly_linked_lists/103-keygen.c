@@ -26,11 +26,11 @@ int main(int argc, char *argv[])
                 sum *= argv[1][i++];
         ans[2] = pass[(sum ^ 0x55) & 0x3f];
         sum = 0;
-        for (i = 0; argv[1][i]; i++)
-                if (argv[1][i] > sum)
+        for (i = 0; argv[1][i]; i++)              
+                 if (argv[1][i] > sum)
                         sum = argv[1][i];
         srand(sum ^ 0xe);
-	ans[3] = pass[rand() & 0x3f];
+        ans[3] = pass[rand() & 0x3f];
         sum = 0;
         for (i = 0; argv[1][i]; i++)
                 sum += (argv[1][i] * argv[1][i]);
